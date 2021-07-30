@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset name="WP LiteSpeed Cache - Clear All Cache Entries (WP CLI)">
+	<description>WP LiteSpeed Cache - Clear All Cache Entries (WP CLI) Coding Standard.</description>
+	<file>wp-litespeed-cache-clear-all-cache-entries.php</file>
+	<arg name="extensions" value="php"/>
+	<arg value="-colors"/>
+	<rule ref="WordPress-Extra"/>
+</ruleset>

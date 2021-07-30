@@ -1,0 +1,37 @@
+{
+    "name": "tombonez/wp-litespeed-cache-clear-all-cache-entries",
+    "description": "A WordPress CLI plugin for clearing all LiteSpeed cache entries.",
+    "homepage": "https://github.com/tombonez/wp-litespeed-cache-clear-all-cache-entries",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tom Taylor",
+            "homepage": "https://github.com/tombonez"
+        }
+    ],
+    "keywords": [
+        "litespeed",
+        "wordpress",
+        "wordpress-plugin",
+        "cache"
+    ],
+    "support": {
+        "issues": "https://github.com/tombonez/wp-litespeed-cache-clear-all-cache-entries/issues"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+        "roave/security-advisories": "dev-latest",
+        "wp-coding-standards/wpcs": "^2.3"
+    },
+    "scripts": {
+        "phpcbf": "vendor/bin/phpcbf",
+        "phpcs": "vendor/bin/phpcs"
+    }
+}
