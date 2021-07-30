@@ -11,10 +11,10 @@
         }
     ],
     "keywords": [
+        "cache",
         "litespeed",
         "wordpress",
-        "wordpress-plugin",
-        "cache"
+        "wordpress-plugin"
     ],
     "support": {
         "issues": "https://github.com/tombonez/wp-litespeed-cache-clear-all-cache-entries/issues"
