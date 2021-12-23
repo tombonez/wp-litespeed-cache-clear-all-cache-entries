@@ -22,7 +22,7 @@ function clear_cache_entries() {
 				define( 'LSWCP_EMPTYCACHE', true );
 				\Litespeed\Purge::purge_all();
 			} else {
-				\WP_CLI::error( 'An error has occured.' );
+				\WP_CLI::warning( "Plugin 'LiteSpeed Cache' is not active." );
 			}
 		}
 	);
