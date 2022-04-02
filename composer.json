@@ -20,6 +20,9 @@
         "issues": "https://github.com/tombonez/wp-litespeed-cache-clear-all-cache-entries/issues"
     },
     "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
         "sort-packages": true
     },
     "require": {
