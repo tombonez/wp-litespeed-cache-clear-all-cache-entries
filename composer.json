@@ -2,7 +2,7 @@
     "name": "tombonez/wp-litespeed-cache-clear-all-cache-entries",
     "description": "A WordPress CLI plugin for clearing all LiteSpeed cache entries.",
     "homepage": "https://github.com/tombonez/wp-litespeed-cache-clear-all-cache-entries",
-    "type": "wordpress-plugin",
+    "type": "wordpress-muplugin",
     "license": "MIT",
     "authors": [
         {
