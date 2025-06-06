@@ -14,7 +14,7 @@ namespace WPLiteSpeedCacheClearAllCacheEntries;
 function clear_cache_entries() {
 	\WP_CLI::add_command(
 		'litespeed-clear-cache',
-		function() {
+		function () {
 			if (
 				method_exists( 'Litespeed\Purge', 'purge_all' ) &&
 				is_callable( array( 'Litespeed\Purge', 'purge_all' ) )
